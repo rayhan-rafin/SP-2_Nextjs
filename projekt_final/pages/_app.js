@@ -1,4 +1,8 @@
 import Head from "next/head";
+// import Font Awesome CSS
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 import { Fragment } from "react";
 import "../styles/globals.css";
 
