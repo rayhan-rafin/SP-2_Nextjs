@@ -30,7 +30,7 @@ const Testimonial = () => {
           <span>Testimonials</span>
           <h3>What Others Say</h3>
           <p>
-            Lets hear the thoughts of my colleagues and co-workers
+            Lets hear the thoughts of my colleagues and students
           </p>
         </div>
         <div className="list_wrapper">
