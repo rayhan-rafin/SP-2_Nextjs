@@ -24,7 +24,7 @@ const Skills = ({ dark }) => {
                 <span>Professional skills</span>
                 <h3>I always keep myself in practice to keep my skills honed</h3>
                 <p>
-                  Most of my professional skills include-
+                  Most of my professional skills include:-
                 </p>
                 <br></br>
                 
