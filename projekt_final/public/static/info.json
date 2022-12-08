@@ -8,7 +8,7 @@
     {
       "name": "Teaching",
       "color": "rgb(247, 80, 35)",
-      "value": 70
+      "value": 72
     },
     {
       "name": "Research (Cryptography and Cyber security)",
@@ -18,7 +18,7 @@
     {
       "name": "Mentoring",
       "color": "rgb(128, 103, 240)",
-      "value": 60
+      "value": 62
     }
   ],
   "social": [
