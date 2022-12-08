@@ -1,3 +1,4 @@
+
 import parse from "html-react-parser";
 import { useEffect, useState } from "react";
 import { fatchData } from "../utilits";
@@ -107,3 +108,5 @@ const Service = ({ dark }) => {
   );
 };
 export default Service;
+Service.js
+Displaying Service.js.
