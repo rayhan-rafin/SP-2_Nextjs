@@ -19,13 +19,13 @@ const Header = ({ logo }) => {
                 <a href="#about">About</a>
               </li>
               <li>
-                <a href="#portfolio">Portfolio</a>
+                <a href="#portfolio">Publications</a>
               </li>
               <li>
-                <a href="#service">Service</a>
+                <a href="#service">Education</a>
               </li>
               <li>
-                <a href="#blog">Blog</a>
+                <a href="#blog">Students</a>
               </li>
               <li>
                 <a href="#contact">Contact</a>
