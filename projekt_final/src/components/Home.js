@@ -1,6 +1,15 @@
 import parse from "html-react-parser";
 import { useEffect, useState } from "react";
 import { fatchData } from "../utilits";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons' 
+import { faTwitter } from '@fortawesome/free-brands-svg-icons' 
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons' 
+import { faBehance } from '@fortawesome/free-brands-svg-icons' 
+
+
+
+
 
 const Home = ({ dark }) => {
   const [data, setData] = useState({});
@@ -9,6 +18,7 @@ const Home = ({ dark }) => {
   }, []);
 
   return (
+    
     <div className="dizme_tm_section" id="home">
       <div className="dizme_tm_hero">
         <div
@@ -42,15 +52,38 @@ const Home = ({ dark }) => {
                 </div>
                 <div className="social">
                   <ul>
-                    {data &&
-                      data.social &&
-                      data.social.map((social, i) => (
-                        <li key={i}>
-                          <a href="#">
-                            <i className={social.icon} />
-                          </a>
-                        </li>
-                      ))}
+                    <li>
+                    
+                    <a href="https://www.facebook.com/sanjamg?mibextid=ZbWKwL">
+                    <FontAwesomeIcon icon={faFacebookF } className="fa-brands fa-facebook" 
+                    >
+                      
+                    </FontAwesomeIcon>
+                    </a>
+                    </li>
+                    <li>
+                    
+                    <a href="https://twitter.com/sanjamgarg?lang=en">
+                    <FontAwesomeIcon icon={faTwitter } className="fa-brands fa-facebook" 
+                    >
+                      
+                    </FontAwesomeIcon>
+                    </a>
+                    
+                    </li>
+                    
+                    <li>
+                    
+                    <a href="https://www.behance.net/">
+                    <FontAwesomeIcon icon={faBehance } className="fa-brands fa-facebook" 
+                    ></FontAwesomeIcon>
+                    </a>
+                    </li>
+                    <li>
+                    <FontAwesomeIcon icon={faLinkedinIn } className="fa-brands fa-facebook" 
+                    ></FontAwesomeIcon>
+                    </li>
+                    
                   </ul>
                 </div>
               </div>
