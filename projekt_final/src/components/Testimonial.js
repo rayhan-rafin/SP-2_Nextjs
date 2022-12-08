@@ -27,10 +27,10 @@ const Testimonial = () => {
     <div className="dizme_tm_section">
       <div className="dizme_tm_testimonials">
         <div className="dizme_tm_main_title" data-align="center">
-          <span>Testimonials</span>
+           <span>Testimonials</span>
           <h3>What Others Say</h3>
           <p>
-            Lets hear the thoughts of my colleagues and co-workers
+            Lets hear the thoughts of my colleagues and co-workers 
           </p>
         </div>
         <div className="list_wrapper">
