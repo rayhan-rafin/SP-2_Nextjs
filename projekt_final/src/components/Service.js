@@ -35,12 +35,12 @@ const Service = ({ dark }) => {
       <div className="dizme_tm_services">
         <div className="container">
           <div className="dizme_tm_main_title" data-align="center">
-            <span>Educational Qualification</span>
-             <h3>"Education"</h3>
-            <p>
+            <span><h3>"Education"</h3></span>
+             
+            {/* <p>
             2013, Ph.D., Computer Science, University of California, Los Angeles
             2008, B.Tech, Computer Science and Engineering, Indian Institute of Technology, Delhi
-            </p>
+            </p> */}
           </div>
           <div className="service_list">
             <ul>
@@ -82,6 +82,7 @@ const Service = ({ dark }) => {
                           </div>
                           <div className="text">
                             <p>{data.shortDec}</p>
+                            <p>{data.shortDec1}</p>
                           </div>
                           <a className="dizme_tm_full_link" href="#" />
                           <img
