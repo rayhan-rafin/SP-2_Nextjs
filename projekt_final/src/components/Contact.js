@@ -125,7 +125,7 @@ const Contact = () => {
                   height={375}
                   style={{ width: "100%" }}
                   id="gmap_canvas"
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12598.015200429338!2d-122.2585399!3d37.8718992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xda8034ea3b6b3289!2sUniversity%20of%20California%2C%20Berkeley!5e0!3m2!1sen!2sbd!4v1669905588089!5m2!1sen!2sbd"
+                  src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
                 />
                 <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon" />
                 <br />
