@@ -51,7 +51,7 @@ const Portfolio = () => {
       <div className="dizme_tm_portfolio">
         <div className="container">
           <div className="dizme_tm_main_title" data-align="center">
-            <span>Portfolio</span>
+            <span>Publictions</span>
             <h3>My Publications</h3>
             <p>
             I have been publishing my thesis papers, Journals and books since
@@ -97,7 +97,7 @@ const Portfolio = () => {
                   className={`c-pointer ${activeBtn("popup")}`}
                   onClick={handleFilterKeyChange("popup")}
                 >
-                  2012
+                  1012
                 </a>
               </li>
               <li>
@@ -132,8 +132,8 @@ const Portfolio = () => {
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Mockup Shape</h3>
-                    <span>Youtube</span>
+                    <h3>2022</h3>
+                    <span>Sanjam Garg</span>
                   </div>
                 </div>
               </li>
@@ -156,8 +156,8 @@ const Portfolio = () => {
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Ave Bottle</h3>
-                    <span>Vimeo</span>
+                  <h3>2020</h3>
+                  <span>Sanjam Garg</span>
                   </div>
                 </div>
               </li>
@@ -180,8 +180,8 @@ const Portfolio = () => {
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Magic Art</h3>
-                    <span>Soundcloud</span>
+                  <h3>2015</h3>
+                  <span>Sanjam Garg</span>
                   </div>
                 </div>
               </li>
@@ -201,8 +201,8 @@ const Portfolio = () => {
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Blue Lemon</h3>
-                    <span>Popup</span>
+                  <h3>2012</h3>
+                  <span>Sanjam Garg</span>
                   </div>
                 </div>
               </li>
@@ -222,8 +222,8 @@ const Portfolio = () => {
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Art Stone</h3>
-                    <span>Popup</span>
+                  <h3>2012</h3>
+                  <span>Sanjam Garg</span>
                   </div>
                 </div>
               </li>
@@ -244,8 +244,8 @@ const Portfolio = () => {
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Global Evolution</h3>
-                    <span>Detail</span>
+                  <h3>2007</h3>
+                  <span>Sanjam Garg</span>
                   </div>
                 </div>
               </li>
